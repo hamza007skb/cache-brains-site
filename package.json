@@ -86,5 +86,18 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "8.1.5"
-  }
+  },
+  "version": "1.0.0",
+  "description": "do it in one cradit limit",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamza007skb/cache-brains-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamza007skb/cache-brains-site/issues"
+  },
+  "homepage": "https://github.com/hamza007skb/cache-brains-site#readme"
 }
