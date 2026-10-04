@@ -97,9 +97,9 @@ function ContactPage() {
 
     try {
       // Web3Forms — the access key is a public identifier, not a credential.
-      // Register at https://web3forms.com/ with brainscache@gmail.com to obtain your key,
+      // Register at https://web3forms.com/ with info@cachebrains.com to obtain your key,
       // then set VITE_WEB3FORMS_KEY in your .env file (and deployment env vars).
-      const accessKey = import.meta.env["VITE_WEB3FORMS_KEY"] as string | undefined;
+      const accessKey = "605ad94e-106b-4bee-9af4-ed16af8537bc";
 
       if (!accessKey) {
         // Graceful fallback: open mail client when key is not yet configured
