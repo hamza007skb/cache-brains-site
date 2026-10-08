@@ -39,8 +39,8 @@ export default function Navbar() {
           : "border-transparent bg-paper/70 backdrop-blur"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-6 lg:px-10">
-        <Link to="/" aria-label="CacheBrains home">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-2 sm:px-6 sm:py-3 lg:px-10 lg:py-4">
+        <Link to="/" aria-label="CacheBrains home" className="flex items-center">
           <Logo />
         </Link>
 
