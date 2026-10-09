@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
-import Logo from "@/components/common/Logo";
 import Button from "@/components/common/Button";
 
 const links = [
@@ -40,8 +39,22 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-2 sm:px-6 sm:py-3 lg:px-10 lg:py-4">
-        <Link to="/" aria-label="CacheBrains home" className="flex items-center">
-          <Logo />
+        <Link
+          to="/"
+          aria-label="CacheBrains home"
+          className="group flex flex-col justify-center select-none py-1"
+        >
+          <div className="flex items-center font-display font-bold text-xl sm:text-2xl tracking-wider leading-none">
+            <span className="text-ink transition-colors group-hover:text-ink-soft">
+              CACHE
+            </span>
+            <span className="ml-1.5 text-copper transition-colors group-hover:text-copper-light">
+              BRAINS
+            </span>
+          </div>
+          <span className="mt-1 text-[8.5px] sm:text-[9.5px] font-mono uppercase tracking-[0.22em] text-stone/90 leading-none">
+            We cache that matters
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">

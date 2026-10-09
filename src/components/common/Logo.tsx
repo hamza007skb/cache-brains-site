@@ -8,15 +8,18 @@ export default function Logo({
   return (
     <span className={`flex items-center ${className}`}>
       <img
-        src="/cache-brains-logo-transparent.svg"
+        src={
+          light
+            ? "/cache-brains-logo/cache-brains-horizontal-dark.svg"
+            : "/cache-brains-logo/cache-brains-horizontal.svg"
+        }
         alt="Cache Brains"
         style={{
           display: "block",
           width: "auto",
-          height: "42px",
-          ...(light ? { filter: "brightness(0) invert(1)" } : {}),
+          height: "38px",
         }}
-        className="sm:!h-[52px] lg:!h-[64px]"
+        className="sm:!h-[46px] lg:!h-[54px]"
       />
     </span>
   );
