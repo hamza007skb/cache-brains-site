@@ -172,7 +172,28 @@ export const services: Service[] = [
       "Risk management for mission-critical infrastructure",
     ],
     icon: "server",
+
   },
+  {
+    slug: "custom-mcp-servers",
+    title: "Custom MCP Server Development",
+    shortDescription:
+      "Connect AI assistants to your tools, databases, and APIs with custom Model Context Protocol (MCP) servers built for your workflows.",
+    description:
+      "AI becomes far more useful when it can interact with the systems your business already relies on. We build custom Model Context Protocol (MCP) servers that connect AI assistants to your databases, internal tools, third-party APIs, and business workflows. From exposing existing services as AI-accessible tools to implementing secure resource access and structured prompts, we design MCP servers that make integrations reliable, maintainable, and production-ready. Whether you need a lightweight server for a single application or a scalable integration layer across multiple systems, we help your AI work with real business data and execute meaningful actions.",
+    bullets: [
+      "Custom MCP server development using TypeScript and Python",
+      "Integration with REST APIs, databases, and internal business systems",
+      "Custom MCP tools, resources, and prompt templates",
+      "Authentication, authorization, and secure tool execution",
+      "Integration with MCP-compatible AI assistants and clients",
+      "Error handling, logging, testing, and production deployment",
+    ],
+    icon: "plug",
+  },
+
+
+
 ];
 
 export const getServiceBySlug = (slug: string) =>
